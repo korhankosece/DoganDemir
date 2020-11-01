@@ -222,13 +222,12 @@ a {
   font-family: "BwModelica-Bold";
   height: 1000px;
   margin-top: 3em;
-}
-.mainsec .container {
   display: flex;
 }
 .mainsec .container .column-1 {
   color: #ffff;
   padding-top: 11em;
+  width: 40%
 }
 .mainsec .container .column-1 h1 {
   font-size: 70px;
@@ -239,8 +238,9 @@ a {
   margin-top: 14em;
 }
 .mainsec .container .column-2 {
+  position: absolute;
   padding-top: 11em;
-  margin-right: -7rem;
+  right: 0;
 }
 
 .subsec .container .textbox {
@@ -335,7 +335,6 @@ a {
   padding: 5rem 20rem 5rem 5rem;
   color: #ffff;
   background-color: #0C1821;
-  width: 55rem;
   margin-right: 30rem;
 }
 .subfooter .contactcard h2 {
