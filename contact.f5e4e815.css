@@ -223,11 +223,14 @@ a {
   height: 1000px;
   margin-top: 3em;
   display: flex;
-
+}
+.mainsec .container {
+  width: 100%;
 }
 .mainsec .container .column-1 {
   color: #ffff;
   padding-top: 11em;
+  width: 40%;
 }
 .mainsec .container .column-1 h1 {
   font-size: 70px;
@@ -250,7 +253,7 @@ a {
 .mainsec .container .column-1 img {
   margin-top: 14em;
 }
-.mainsec .container .column-2 {
+.mainsec .column-2 {
   position: absolute;
   padding-top: 11em;
   right: 0;
