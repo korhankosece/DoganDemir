@@ -222,9 +222,8 @@ a {
   font-family: "BwModelica-Bold";
   height: 1000px;
   margin-top: 3em;
-}
-.mainsec .container {
   display: flex;
+
 }
 .mainsec .container .column-1 {
   color: #ffff;
