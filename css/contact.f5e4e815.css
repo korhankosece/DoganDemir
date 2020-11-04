@@ -2,25 +2,25 @@
   font-family: "BwModelica-Regular";
   font-style: normal;
   font-weight: normal;
-  src: local("BwModelica-Regular"), url("./font/BwModelica-Regular.f38fb57a.woff") format("woff");
+  src: local("BwModelica-Regular"), url("../font/BwModelica-Regular.f38fb57a.woff") format("woff");
 }
 @font-face {
   font-family: "BwModelica-Bold";
   font-style: normal;
   font-weight: normal;
-  src: local("BwModelica-Bold"), url("./font/BwModelica-Bold.c72a676a.woff") format("woff");
+  src: local("BwModelica-Bold"), url("../font/BwModelica-Bold.c72a676a.woff") format("woff");
 }
 @font-face {
   font-family: "BwModelica-Medium";
   font-style: normal;
   font-weight: normal;
-  src: local("BwModelica-Medium"), url("./font/BwModelica-Medium.a067e37d.woff") format("woff");
+  src: local("BwModelica-Medium"), url("../font/BwModelica-Medium.a067e37d.woff") format("woff");
 }
 @font-face {
   font-family: "Helvetica Neue Regular";
   font-style: normal;
   font-weight: normal;
-  src: local("Helvetica Neue Regular"), url("./font/Helvetica Neue Regular.37c648ef.woff") format("woff");
+  src: local("Helvetica Neue Regular"), url("../font/Helvetica Neue Regular.37c648ef.woff") format("woff");
 }
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,

@@ -2,25 +2,25 @@
   font-family: "BwModelica-Regular";
   font-style: normal;
   font-weight: normal;
-  src: local("BwModelica-Regular"), url("./font/BwModelica-Regular.f38fb57a.woff") format("woff");
+  src: local("BwModelica-Regular"), url("../font/BwModelica-Regular.f38fb57a.woff") format("woff");
 }
 @font-face {
   font-family: "BwModelica-Bold";
   font-style: normal;
   font-weight: normal;
-  src: local("BwModelica-Bold"), url("./font/BwModelica-Bold.c72a676a.woff") format("woff");
+  src: local("BwModelica-Bold"), url("../font/BwModelica-Bold.c72a676a.woff") format("woff");
 }
 @font-face {
   font-family: "BwModelica-Medium";
   font-style: normal;
   font-weight: normal;
-  src: local("BwModelica-Medium"), url("./font/BwModelica-Medium.a067e37d.woff") format("woff");
+  src: local("BwModelica-Medium"), url("../font/BwModelica-Medium.a067e37d.woff") format("woff");
 }
 @font-face {
   font-family: "Helvetica Neue Regular";
   font-style: normal;
   font-weight: normal;
-  src: local("Helvetica Neue Regular"), url("./font/Helvetica Neue Regular.37c648ef.woff") format("woff");
+  src: local("Helvetica Neue Regular"), url("../font/Helvetica Neue Regular.37c648ef.woff") format("woff");
 }
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
@@ -89,9 +89,9 @@ a {
 
 .container {
   margin: 0 auto 0 auto;
-  max-width: 105em;
+  max-width: 104.9em;
 }
-@media screen and (max-width: 105em) {
+@media screen and (max-width: 104.9em) {
   .container {
     max-width: 90em;
   }
@@ -192,6 +192,11 @@ a {
   left: 0;
   transition: width 0.3s ease 0s, left 0.3s ease 0s;
 }
+.headerrow .left-nav li:nth-child(2) a{
+  pointer-events: none;
+  padding: 0 0 2rem 0;
+  border-bottom: 7px solid #00A1E0;
+}
 .headerrow .right-nav {
   display: flex;
   align-items: center;
@@ -217,92 +222,54 @@ a {
   font-family: "BwModelica-Bold";
   height: 1000px;
   margin-top: 3em;
-}
-.mainsec .container {
   display: flex;
 }
+.mainsec .container {
+  width: 100%;
+}
 .mainsec .container .column-1 {
-  color: #ffff;
   padding-top: 11em;
-  padding-left: 7em;
+  width: 40%;
+  color: #ffff;
 }
 .mainsec .container .column-1 h1 {
   font-size: 70px;
-  word-spacing: 5rem;
+  word-spacing: 10rem;
   line-height: 6rem;
 }
-.mainsec .container .column-1 .button {
-  color: #ffff;
-  font-family: "BwModelica-Medium";
-  font-size: 1.3rem;
-  border: 1px solid #ffff;
-  box-sizing: border-box;
-  padding: 1.5rem;
-  display: inline-block;
-  margin-top: 2rem;
+.mainsec .container .column-1 img {
+  margin-top: 14em;
 }
-.mainsec .container .column-1 .button i {
-  padding-left: 2rem;
-}
-.mainsec .container .column-2 {
-  margin-top: 16em;
-  display: flex;
-  align-items: center;
-}
-.mainsec .container .column-2 .subsicons {
-  margin-top: 5rem;
-}
-.mainsec .container .column-2 .subsicons i {
-  color: #ffff;
-  font-size: 30px;
-  padding: 2rem 0 0 5rem;
+.mainsec .column-2 {
+  position: absolute;
+  padding-top: 11em;
+  right: 0;
 }
 
-.subsec {
-  padding: 8rem 0 8rem 0;
-}
-.subsec .container {
-  display: flex;
-}
 .subsec .container .textbox {
+  margin-top: 25em;
+  display: flex;
   color: #0C1821;
-  margin: 18em 14rem 0 5rem;
-  border-top: 10px solid #00A1E0;
-  padding-right: 8rem;
 }
 .subsec .container .textbox h2 {
-  margin-top: 4rem;
+  width: 56%;
+  border-top: 10px solid #00A1E0;
+  border-bottom: 10px solid #00A1E0;
+  padding: 3rem 0 3rem 0;
+  line-height: 1.2;
   font-family: "BwModelica-Bold";
-  font-size: 45px;
+  font-size: 76px;
 }
 .subsec .container .textbox p {
-  margin-top: 4rem;
+  width: 44%;
+  padding: 3rem 14rem 0 14rem;
   font-family: "BwModelica-Medium";
   font-size: 20px;
   line-height: 1.6;
 }
-
-.mainfooter {
-  background-image: linear-gradient(to right, rgba(12, 24, 33, 0.7), rgba(12, 24, 33, 0.7)), url("./img/mainpagebg.33be129d.png");
-  background-repeat: no-repeat;
-  color: #ffff;
-  padding: 15rem 0 15rem 0;
-}
-.mainfooter .container {
-  display: flex;
-  justify-content: space-between;
-}
-.mainfooter .container div {
-  text-align: center;
-}
-.mainfooter .container h2 {
-  font-family: "BwModelica-Bold";
-  font-size: 72px;
-}
-.mainfooter .container p {
-  margin-top: 2rem;
-  font-family: "BwModelica-Regular";
-  font-size: 32px;
+.subsec img {
+  margin-top: 8rem;
+  width: 100%;
 }
 
 .listheader {
@@ -360,75 +327,6 @@ a {
   color: #0C1821;
   padding: 1.2rem;
   border: 1.7px solid #00A1E0;
-}
-
-.circleform {
-  color: #0C1821;
-  font-family: "BwModelica-Regular";
-  background-color: #F3F3F5;
-}
-.circleform h2 {
-  padding-top: 6rem;
-  text-align: center;
-  font-family: "BwModelica-Bold";
-  font-size: 60px;
-  padding-bottom: 4rem;
-}
-.circleform img {
-  width: 100%;
-}
-.circleform .container {
-  display: flex;
-  font-size: 35px;
-  padding: 4rem 0 4rem 0;
-}
-.circleform .container .column {
-  border: 1px solid #6D6F73;
-  height: 19rem;
-  border-radius: 50%;
-  -moz-border-radius: 50%;
-  -webkit-border-radius: 50%;
-  width: auto;
-  text-align: center;
-  margin: 5rem;
-  padding: 5rem;
-}
-.circleform .container .column h3 {
-  padding-top: 1rem;
-  color: #00A1E0;
-}
-.circleform .container .column h4 {
-  padding-top: 2rem;
-  font-family: "BwModelica-Bold";
-}
-.circleform .container .column p {
-  padding-top: 2rem;
-  font-size: 18px;
-  line-height: 1.6;
-}
-
-.references {
-  text-align: center;
-}
-.references .refbg {
-  background-image: linear-gradient(to right, rgba(12, 24, 33, 0.7), rgba(12, 24, 33, 0.7)), url("./img/mainpagebg2.aa26f02f.png");
-  background-repeat: no-repeat;
-  color: #ffff;
-  padding: 9rem 0 9rem 0;
-}
-.references .refbg h2 {
-  font-family: "BwModelica-Bold";
-  font-size: 72px;
-}
-.references .refbg p {
-  margin-top: 2rem;
-  font-family: "BwModelica-Regular";
-  font-size: 32px;
-  line-height: 1.6;
-}
-.references .container {
-  margin-top: 5rem;
-  margin-bottom: 5rem;
 }
 
 .subfooter {
