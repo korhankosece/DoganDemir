@@ -113,7 +113,7 @@ a {
 }
 @media screen and (max-width: 50em) {
   .container {
-    max-width: 35em;
+    max-width: 37em;
   }
 }
 @media screen and (max-width: 600px) {
@@ -255,6 +255,28 @@ a {
   word-spacing: 5rem;
   line-height: 90px;
 }
+@media screen and (max-width: 1680px) {
+  .mainsec .container .column-1 h1 {
+    font-size: 48px;
+    word-spacing: 1rem;
+    line-height: 90px;
+  }
+}
+@media screen and (max-width: 1040px) {
+  .mainsec .container .column-1 h1 {
+    font-size: 36px;
+    line-height: 1.33;
+    word-spacing: 0;
+  }
+}
+@media screen and (max-width: 800px) {
+  .mainsec .container .column-1 {
+    padding-right: 2em;
+  }
+  .mainsec .container .column-1 h1 {
+    font-size: 30px;
+  }
+}
 @media screen and (max-width: 600px) {
   .mainsec .container .column-1 {
     padding-right: 0;
@@ -286,6 +308,13 @@ a {
 .mainsec .container .column-1 .button i {
   padding-left: 2rem;
 }
+@media screen and (max-width: 800px) {
+  .mainsec .container .column-1 .button {
+    font-size: 18px;
+    font-stretch: normal;
+    line-height: 1.22;
+  }
+}
 @media screen and (max-width: 600px) {
   .mainsec .container .column-1 .button {
     margin-top: 29rem;
@@ -308,10 +337,27 @@ a {
   font-size: 30px;
   padding: 2rem 0 0 5rem;
 }
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 1680px) {
   .mainsec .container .column-2 .subsicons {
     display: none;
   }
+}
+@media screen and (max-width: 1440px) {
+  .mainsec .container .column-2 img {
+    height: 800px;
+  }
+}
+@media screen and (max-width: 1040px) {
+  .mainsec .container .column-2 img {
+    height: 500px;
+  }
+}
+@media screen and (max-width: 800px) {
+  .mainsec .container .column-2 img {
+    height: 450px;
+  }
+}
+@media screen and (max-width: 600px) {
   .mainsec .container .column-2 img {
     width: 254px;
     height: 392px;
@@ -326,9 +372,19 @@ a {
     display: inline-block;
   }
 }
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 1040px) {
   .mainsec {
     margin-top: 0;
+    height: 700px;
+  }
+}
+@media screen and (max-width: 800px) {
+  .mainsec {
+    height: 650px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .mainsec {
     height: 872px;
   }
 }
@@ -339,6 +395,16 @@ a {
 @media screen and (min-width: 600px) {
   .subsec img:nth-of-type(2) {
     display: none;
+  }
+}
+@media screen and (max-width: 1440px) {
+  .subsec {
+    padding: 3rem 0 3rem 0;
+  }
+}
+@media screen and (max-width: 1440px) {
+  .subsec {
+    padding: 5rem 0 3rem 0;
   }
 }
 @media screen and (max-width: 600px) {
@@ -358,25 +424,43 @@ a {
   margin: 20em 6.5rem 0 12.7rem;
   border-top: 10px solid #00A1E0;
 }
+@media screen and (max-width: 1440px) {
+  .subsec .container .textbox {
+    margin: 10em 0 0 17.5rem;
+  }
+}
+@media screen and (max-width: 1280px) {
+  .subsec .container .textbox {
+    margin: 10em 0 0 3rem;
+  }
+}
+@media screen and (max-width: 1040px) {
+  .subsec .container .textbox {
+    margin: 0 0 0 8.5rem;
+  }
+}
+@media screen and (max-width: 800px) {
+  .subsec .container .textbox {
+    margin: 0 0 0 2.5rem;
+  }
+}
 .subsec .container .textbox h2 {
   margin-top: 4rem;
   font-family: "BwModelica-Bold";
   font-size: 48px;
   line-height: 30px;
 }
-.subsec .container .textbox p {
-  margin-top: 4rem;
-  font-family: "BwModelica-Medium";
-  font-size: 24px;
-  line-height: 36px;
+@media screen and (max-width: 1680px) {
+  .subsec .container .textbox h2 {
+    font-size: 43px;
+  }
 }
-@media screen and (max-width: 600px) {
-  .subsec .container {
-    display: inline-block;
+@media screen and (max-width: 1040px) {
+  .subsec .container .textbox h2 {
+    font-size: 30px;
   }
-  .subsec .container .textbox {
-    margin: 13.5rem 0 0 0;
-  }
+}
+@media screen and (max-width: 800px) {
   .subsec .container .textbox h2 {
     margin-top: 1.5rem;
     font-size: 24px;
@@ -385,6 +469,25 @@ a {
     font-style: normal;
     line-height: 1.25;
   }
+}
+.subsec .container .textbox p {
+  margin-top: 4rem;
+  font-family: "BwModelica-Medium";
+  font-size: 24px;
+  line-height: 36px;
+}
+@media screen and (max-width: 1680px) {
+  .subsec .container .textbox p {
+    font-size: 21px;
+  }
+}
+@media screen and (max-width: 1040px) {
+  .subsec .container .textbox p {
+    margin-top: 2rem;
+    font-size: 18px;
+  }
+}
+@media screen and (max-width: 800px) {
   .subsec .container .textbox p {
     margin-top: 1.5rem;
     font-size: 16px;
@@ -392,6 +495,29 @@ a {
     font-stretch: normal;
     font-style: normal;
     line-height: 1.75;
+  }
+}
+@media screen and (max-width: 1440px) {
+  .subsec .container img {
+    height: 660px;
+  }
+}
+@media screen and (max-width: 1040px) {
+  .subsec .container img {
+    height: 450px;
+  }
+}
+@media screen and (max-width: 800px) {
+  .subsec .container img {
+    height: 350px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .subsec .container {
+    display: inline-block;
+  }
+  .subsec .container .textbox {
+    margin: 13.5rem 0 0 0;
   }
   .subsec .container img {
     position: absolute;
@@ -421,7 +547,23 @@ a {
   font-family: "BwModelica-Regular";
   font-size: 32px;
 }
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 1280px) {
+  .mainfooter .container h2 {
+    font-size: 48px;
+  }
+  .mainfooter .container p {
+    font-size: 28px;
+  }
+}
+@media screen and (max-width: 1040px) {
+  .mainfooter .container h2 {
+    font-size: 36px;
+  }
+  .mainfooter .container p {
+    font-size: 24px;
+  }
+}
+@media screen and (max-width: 800px) {
   .mainfooter .container {
     flex-direction: column;
   }
@@ -431,6 +573,8 @@ a {
   .mainfooter .container div:last-of-type {
     margin-bottom: 0;
   }
+}
+@media screen and (max-width: 600px) {
   .mainfooter .container h2 {
     font-size: 36px;
     font-stretch: normal;
@@ -444,6 +588,11 @@ a {
     font-stretch: normal;
     line-height: 1.5;
     margin-top: 1rem;
+  }
+}
+@media screen and (max-width: 800px) {
+  .mainfooter {
+    padding: 6rem 0 6rem 0;
   }
 }
 @media screen and (max-width: 600px) {
@@ -469,6 +618,35 @@ a {
   font-size: 32px;
   line-height: 1.6;
   margin-top: 4rem;
+}
+@media screen and (max-width: 1440px) {
+  .listheader .container h2 {
+    font-family: "BwModelica-Bold";
+    font-size: 48px;
+  }
+  .listheader .container p {
+    font-family: "BwModelica-Regular";
+    font-size: 28px;
+    line-height: 1.6;
+  }
+}
+@media screen and (max-width: 1040px) {
+  .listheader .container {
+    padding: 3rem 0;
+  }
+  .listheader .container h2 {
+    font-size: 36px;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.25;
+  }
+  .listheader .container p {
+    margin-top: 1rem;
+    font-size: 20px;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.38;
+  }
 }
 @media screen and (max-width: 600px) {
   .listheader .container {
@@ -506,6 +684,14 @@ a {
   row-gap: 10%;
   column-gap: 5%;
 }
+@media screen and (max-width: 1040px) {
+  .gridlist .container {
+    grid-template-columns: 45% 45%;
+    grid-template-rows: auto auto;
+    row-gap: 5%;
+    column-gap: 10%;
+  }
+}
 @media screen and (max-width: 600px) {
   .gridlist .container {
     display: inline-block;
@@ -520,7 +706,21 @@ a {
 }
 .gridlist .textbox {
   padding: 2rem;
+  height: 400px;
   background-color: #ffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+@media screen and (max-width: 1040px) {
+  .gridlist .textbox {
+    height: 350px;
+  }
+}
+@media screen and (max-width: 1040px) {
+  .gridlist .textbox {
+    height: 400px;
+  }
 }
 .gridlist .textbox h3 {
   font-family: "BwModelica-Bold";
@@ -553,12 +753,17 @@ a {
   font-size: 60px;
   padding-bottom: 4rem;
 }
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 1040px) {
   .circleform h2 {
-    font-size: 24px;
+    font-size: 36px;
     font-stretch: normal;
     font-style: normal;
     line-height: 1.25;
+  }
+}
+@media screen and (max-width: 600px) {
+  .circleform h2 {
+    font-size: 24px;
     padding-bottom: 1rem;
     padding-top: 3rem;
   }
@@ -589,6 +794,24 @@ a {
   margin: 5rem;
   padding: 6rem 3rem;
 }
+@media screen and (max-width: 1600px) {
+  .circleform .container .column {
+    margin: 5%;
+    padding: 5% 2%;
+  }
+}
+@media screen and (max-width: 1280px) {
+  .circleform .container .column {
+    margin: 2%;
+    padding: 3% 2%;
+  }
+}
+@media screen and (max-width: 960px) {
+  .circleform .container .column {
+    margin: 1%;
+    padding: 3% 2%;
+  }
+}
 @media screen and (max-width: 600px) {
   .circleform .container .column {
     margin: 1rem 0;
@@ -602,22 +825,52 @@ a {
   line-height: 30px;
   font-family: "BwModelica-Bold";
 }
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 1280px) {
+  .circleform .container .column h3 {
+    font-size: 38px;
+  }
+}
+@media screen and (max-width: 960px) {
   .circleform .container .column h3 {
     padding-top: 30px;
     font-size: 36px;
-    font-stretch: normal;
     line-height: 0.83;
+  }
+}
+@media screen and (min-width: 600px) and (max-width: 750px) {
+  .circleform .container .column h3 {
+    padding-top: 28px;
+    font-size: 32px;
+    line-height: 0.83;
+  }
+}
+@media screen and (max-width: 600px) {
+  .circleform .container .column h3 {
+    font-stretch: normal;
   }
 }
 .circleform .container .column h4 {
   padding-top: 40px;
   font-family: "BwModelica-Bold";
 }
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 1280px) {
+  .circleform .container .column h4 {
+    padding-top: 35px;
+    font-size: 28px;
+  }
+}
+@media screen and (max-width: 960px) {
   .circleform .container .column h4 {
     padding-top: 30px;
     font-size: 24px;
+    font-stretch: normal;
+    line-height: 1.25;
+  }
+}
+@media screen and (min-width: 600px) and (max-width: 750px) {
+  .circleform .container .column h4 {
+    padding-top: 27px;
+    font-size: 19px;
     font-stretch: normal;
     line-height: 1.25;
   }
@@ -627,7 +880,13 @@ a {
   font-size: 18px;
   line-height: 1.6;
 }
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 1280px) {
+  .circleform .container .column p {
+    padding-top: 20px;
+    font-size: 16px;
+  }
+}
+@media screen and (max-width: 960px) {
   .circleform .container .column p {
     padding-top: 20px;
     font-size: 16px;
@@ -635,15 +894,35 @@ a {
     line-height: 1.5;
   }
 }
+@media screen and (min-width: 600px) and (max-width: 750px) {
+  .circleform .container .column p {
+    padding-top: 16px;
+    font-size: 12px;
+    font-stretch: normal;
+    line-height: 1.25;
+  }
+}
 .circleform .container .column img {
   width: 100px;
   height: 100px;
   object-fit: contain;
 }
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 1280px) {
+  .circleform .container .column img {
+    width: 80px;
+    height: 80px;
+  }
+}
+@media screen and (max-width: 960px) {
   .circleform .container .column img {
     width: 60px;
     height: 60px;
+  }
+}
+@media screen and (min-width: 600px) and (max-width: 750px) {
+  .circleform .container .column img {
+    width: 40px;
+    height: 40px;
   }
 }
 
@@ -656,7 +935,7 @@ a {
   color: #ffff;
   padding: 7rem 0;
 }
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 1040px) {
   .references .refbg {
     padding: 1px;
   }
@@ -664,6 +943,21 @@ a {
 .references .refbg h2 {
   font-family: "BwModelica-Bold";
   font-size: 72px;
+}
+@media screen and (max-width: 1440px) {
+  .references .refbg h2 {
+    font-size: 60px;
+  }
+}
+@media screen and (max-width: 1280px) {
+  .references .refbg h2 {
+    font-size: 48px;
+  }
+}
+@media screen and (max-width: 1040px) {
+  .references .refbg h2 {
+    font-size: 36px;
+  }
 }
 @media screen and (max-width: 600px) {
   .references .refbg h2 {
@@ -677,6 +971,21 @@ a {
   font-family: "BwModelica-Regular";
   font-size: 32px;
   line-height: 1.6;
+}
+@media screen and (max-width: 1440px) {
+  .references .refbg p {
+    font-size: 30px;
+  }
+}
+@media screen and (max-width: 1280px) {
+  .references .refbg p {
+    font-size: 28px;
+  }
+}
+@media screen and (max-width: 1040px) {
+  .references .refbg p {
+    font-size: 24px;
+  }
 }
 @media screen and (max-width: 600px) {
   .references .refbg p {
@@ -705,6 +1014,11 @@ a {
   padding-top: 10rem;
   padding-bottom: 25rem;
 }
+@media screen and (max-width: 1280px) {
+  .subfooter {
+    padding-bottom: 15rem;
+  }
+}
 @media screen and (max-width: 600px) {
   .subfooter {
     background-color: #0C1821;
@@ -719,7 +1033,17 @@ a {
   padding: 5rem 20rem 5rem 5rem;
   color: #ffff;
   background-color: #0C1821;
-  margin-right: 30rem;
+  margin-right: 28.6%;
+}
+@media screen and (max-width: 1040px) {
+  .subfooter .contactcard {
+    margin-right: 20.6%;
+  }
+}
+@media screen and (max-width: 800px) {
+  .subfooter .contactcard {
+    padding: 2rem 15rem 2rem 2rem;
+  }
 }
 @media screen and (max-width: 600px) {
   .subfooter .contactcard {
@@ -731,6 +1055,21 @@ a {
   font-family: "BwModelica-Bold";
   font-size: 60px;
   line-height: 1.2;
+}
+@media screen and (max-width: 1440px) {
+  .subfooter .contactcard h2 {
+    font-size: 48px;
+  }
+}
+@media screen and (max-width: 1040px) {
+  .subfooter .contactcard h2 {
+    font-size: 36px;
+  }
+}
+@media screen and (max-width: 800px) {
+  .subfooter .contactcard h2 {
+    font-size: 30px;
+  }
 }
 @media screen and (max-width: 600px) {
   .subfooter .contactcard h2 {
@@ -761,6 +1100,23 @@ a {
 .subfooter .contactcard .button i {
   padding-left: 2rem;
 }
+@media screen and (max-width: 1440px) {
+  .subfooter .contactcard .button {
+    margin-top: 3.5rem;
+  }
+}
+@media screen and (max-width: 1040px) {
+  .subfooter .contactcard .button {
+    margin-top: 2rem;
+    font-size: 1rem;
+  }
+}
+@media screen and (max-width: 800px) {
+  .subfooter .contactcard .button {
+    margin-top: 2rem;
+    font-size: 0.75rem;
+  }
+}
 @media screen and (max-width: 600px) {
   .subfooter .contactcard .button {
     margin-top: 3.5rem;
@@ -778,15 +1134,49 @@ a {
 .subfooter .container img {
   z-index: 0;
   position: absolute;
-  margin-left: 29rem;
-  margin-top: 15rem;
+  margin-left: 25.9%;
+  margin-top: 14.3%;
+}
+@media screen and (max-width: 1600px) {
+  .subfooter .container img {
+    margin-left: 23.9%;
+    margin-top: 14.3%;
+  }
+}
+@media screen and (max-width: 1440px) {
+  .subfooter .container img {
+    margin-left: 20%;
+    margin-top: 12%;
+    height: 400px;
+    width: auto;
+  }
+}
+@media screen and (max-width: 1040px) {
+  .subfooter .container img {
+    margin-left: 21%;
+    margin-top: 18%;
+    height: 300px;
+  }
+}
+@media screen and (max-width: 800px) {
+  .subfooter .container img {
+    margin-left: 22%;
+    margin-top: 25%;
+    height: 245px;
+  }
+}
+@media screen and (max-width: 680px) {
+  .subfooter .container img {
+    margin-left: 22%;
+    margin-top: 25%;
+    height: 200px;
+  }
 }
 @media screen and (max-width: 600px) {
   .subfooter .container img {
     margin-left: 0;
     margin-top: 0;
     height: 196px;
-    width: auto;
     top: 265px;
     right: 0;
   }
@@ -803,7 +1193,7 @@ a {
   justify-content: space-between;
   position: relative;
 }
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 800px) {
   .footer .container .interior {
     display: inline-block;
     text-align: center;
@@ -813,7 +1203,7 @@ a {
 .footer .container .interior .column1 p:last-of-type {
   font-size: 18px;
 }
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 800px) {
   .footer .container .interior .column1 p:last-of-type {
     font-size: 10px;
     font-weight: normal;
@@ -828,7 +1218,7 @@ a {
   font-family: "BwModelica-Regular";
   font-size: 16px;
 }
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 800px) {
   .footer .container .interior .column1 {
     width: auto;
     padding-right: 5rem;
@@ -837,7 +1227,7 @@ a {
 .footer .container .interior .column1 .info {
   margin-top: 1rem;
 }
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 800px) {
   .footer .container .interior .column1 .info {
     font-size: 12px;
     font-weight: normal;
@@ -850,7 +1240,7 @@ a {
   line-height: 24px;
   display: flex;
 }
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 800px) {
   .footer .container .interior .column1 p {
     display: block;
     font-size: 12px;
@@ -866,7 +1256,7 @@ a {
 .footer .container .interior .column1 .text p {
   font-size: 16px;
 }
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 800px) {
   .footer .container .interior .column1 .text {
     margin-top: 0;
     width: auto;
@@ -895,7 +1285,7 @@ a {
   margin-right: 2rem;
   margin-top: 1rem;
 }
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 800px) {
   .footer .container .interior .column1 .botcolumn {
     align-self: center;
     margin: 0;
@@ -904,12 +1294,12 @@ a {
     margin: 2rem 0 3rem 0;
   }
 }
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 800px) {
   .footer .container .interior .column1 .copyright {
     display: none;
   }
 }
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 800px) {
   .footer .container .interior .column1 {
     width: auto;
     padding-right: 0;
@@ -927,7 +1317,7 @@ a {
   justify-content: space-between;
   padding-bottom: 11rem;
 }
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 800px) {
   .footer .container .interior .column2 {
     border-top: none;
     padding-bottom: 0;
@@ -942,6 +1332,11 @@ a {
   row-gap: 105%;
   column-gap: 45%;
   margin-right: 20rem;
+}
+@media screen and (max-width: 1040px) {
+  .footer .container .interior .column2 .topcolumn {
+    margin-right: 10rem;
+  }
 }
 .footer .container .interior .column2 .topcolumn a {
   position: relative;
@@ -964,7 +1359,7 @@ a {
   left: 0;
   transition: width 0.3s ease 0s, left 0.3s ease 0s;
 }
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 800px) {
   .footer .container .interior .column2 .topcolumn {
     display: none;
   }
@@ -985,7 +1380,7 @@ a {
     line-height: 1.22;
   }
 }
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 800px) {
   .footer .container .interior .column2 .button {
     font-size: 18px;
     font-stretch: normal;
@@ -998,7 +1393,7 @@ a {
 .footer .container .interior .column2 .copyright-mobile {
   display: none;
 }
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 800px) {
   .footer .container .interior .column2 .copyright-mobile {
     margin-top: 4rem;
     display: block;
@@ -1009,4 +1404,3 @@ a {
     font-family: "BwModelica-Regular";
   }
 }
-
