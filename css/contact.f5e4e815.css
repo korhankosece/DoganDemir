@@ -116,6 +116,11 @@ a {
     max-width: 35em;
   }
 }
+@media screen and (max-width: 600px) {
+  .container {
+    margin: 0 16px;
+  }
+}
 
 .headerrow {
   display: flex;
@@ -192,7 +197,7 @@ a {
   left: 0;
   transition: width 0.3s ease 0s, left 0.3s ease 0s;
 }
-.headerrow .left-nav li:nth-child(4) a{
+.headerrow .left-nav li:nth-child(4) a {
   pointer-events: none;
   padding: 0 0 2rem 0;
   border-bottom: 7px solid #00A1E0;
@@ -224,6 +229,31 @@ a {
   margin-top: 3em;
   display: flex;
 }
+@media screen and (max-width: 1440px) {
+  .mainsec {
+    height: 900px;
+  }
+}
+@media screen and (max-width: 1280px) {
+  .mainsec {
+    height: 800px;
+  }
+}
+@media screen and (max-width: 1080px) {
+  .mainsec {
+    height: 700px;
+  }
+}
+@media screen and (max-width: 950px) {
+  .mainsec {
+    height: 650px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .mainsec {
+    height: 750px;
+  }
+}
 .mainsec .container {
   width: 100%;
 }
@@ -236,6 +266,45 @@ a {
   font-size: 70px;
   word-spacing: 10rem;
   line-height: 6rem;
+}
+@media screen and (max-width: 1440px) {
+  .mainsec .container .column-1 h1 {
+    font-size: 54px;
+    line-height: 5rem;
+  }
+}
+@media screen and (max-width: 1080px) {
+  .mainsec .container .column-1 h1 {
+    font-size: 48px;
+    line-height: 4rem;
+  }
+}
+@media screen and (max-width: 800px) {
+  .mainsec .container .column-1 h1 {
+    font-size: 32px;
+    line-height: 3rem;
+  }
+}
+@media screen and (max-width: 600px) {
+  .mainsec .container .column-1 {
+    width: auto;
+    padding-right: 0;
+    padding-top: 6em;
+  }
+  .mainsec .container .column-1 h1 {
+    font-size: 24px;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.33;
+    letter-spacing: normal;
+    word-spacing: 0;
+    padding-right: 6rem;
+  }
+}
+@media screen and (max-width: 350px) {
+  .mainsec .container .column-1 h1 {
+    padding-right: 4rem;
+  }
 }
 .mainsec .container .column-1 .button {
   color: #ffff;
@@ -250,28 +319,204 @@ a {
 .mainsec .container .column-1 .button i {
   padding-left: 2rem;
 }
+@media screen and (max-width: 1600px) {
+  .mainsec .container .column-1 .button {
+    display: none;
+  }
+}
 .mainsec .container .column-1 img {
   margin-top: 14em;
+}
+@media screen and (max-width: 1440px) {
+  .mainsec .container .column-1 img {
+    height: 400px;
+  }
+}
+@media screen and (max-width: 1280px) {
+  .mainsec .container .column-1 img {
+    margin-top: 10em;
+  }
+}
+@media screen and (max-width: 1080px) {
+  .mainsec .container .column-1 img {
+    height: 300px;
+  }
+}
+@media screen and (max-width: 950px) {
+  .mainsec .container .column-1 img {
+    margin-top: 7em;
+  }
+}
+@media screen and (max-width: 680px) {
+  .mainsec .container .column-1 img {
+    height: 254px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .mainsec .container .column-1 img {
+    margin-top: 32em;
+  }
+}
+@media screen and (max-width: 445px) {
+  .mainsec .container .column-1 img {
+    margin-top: 29em;
+  }
 }
 .mainsec .column-2 {
   position: absolute;
   padding-top: 11em;
   right: 0;
 }
+.mainsec .column-2 img:nth-of-type(2) {
+  display: none;
+}
+.mainsec .column-2 img:nth-of-type(3) {
+  display: none;
+}
+@media screen and (max-width: 1680px) {
+  .mainsec .column-2 img:nth-of-type(1) {
+    display: none;
+  }
+  .mainsec .column-2 img:nth-of-type(3) {
+    display: block;
+  }
+}
+@media screen and (max-width: 1600px) {
+  .mainsec .column-2 {
+    padding-top: 15em;
+  }
+}
+@media screen and (max-width: 1440px) {
+  .mainsec .column-2 {
+    padding-top: 10em;
+  }
+  .mainsec .column-2 img:nth-of-type(3) {
+    height: 800px;
+  }
+}
+@media screen and (max-width: 1280px) {
+  .mainsec .column-2 img:nth-of-type(3) {
+    height: 700px;
+  }
+}
+@media screen and (max-width: 1080px) {
+  .mainsec .column-2 img:nth-of-type(3) {
+    height: 600px;
+  }
+}
+@media screen and (max-width: 950px) {
+  .mainsec .column-2 img:nth-of-type(3) {
+    height: 500px;
+  }
+}
+@media screen and (max-width: 800px) {
+  .mainsec .column-2 img:nth-of-type(3) {
+    height: 350px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .mainsec .column-2 {
+    padding-top: 12em;
+  }
+  .mainsec .column-2 img:nth-of-type(2) {
+    display: block;
+    width: 271px;
+    height: 392px;
+    object-fit: contain;
+  }
+  .mainsec .column-2 img:nth-of-type(3) {
+    display: none;
+  }
+}
 
 .subsec .container {
   display: flex;
   justify-content: space-between;
+}
+@media screen and (max-width: 680px) {
+  .subsec .container {
+    margin-top: 10rem;
+  }
+}
+@media screen and (max-width: 650px) {
+  .subsec .container {
+    display: block;
+  }
+}
+@media screen and (max-width: 600px) {
+  .subsec .container {
+    display: inline-block;
+    margin-top: 8rem;
+  }
 }
 .subsec .container .textbox {
   width: 23%;
   margin-top: 28em;
   color: #0C1821;
 }
+@media screen and (max-width: 1680px) {
+  .subsec .container .textbox {
+    width: 25%;
+  }
+}
+@media screen and (max-width: 1440px) {
+  .subsec .container .textbox {
+    margin-top: 20em;
+    width: 28%;
+  }
+}
+@media screen and (max-width: 1280px) {
+  .subsec .container .textbox {
+    width: 30%;
+  }
+}
+@media screen and (max-width: 950px) {
+  .subsec .container .textbox {
+    margin-top: 15em;
+  }
+}
+@media screen and (max-width: 800px) {
+  .subsec .container .textbox {
+    margin-top: 12em;
+  }
+}
+@media screen and (max-width: 680px) {
+  .subsec .container .textbox {
+    margin-top: 0;
+  }
+}
+@media screen and (max-width: 650px) {
+  .subsec .container .textbox {
+    margin-top: 3rem;
+    width: 100%;
+  }
+}
 .subsec .container .textbox span {
-  color: #B0B1B2;
-  font-family: "BwModelica-Regular";
+  color: #6d6f73;
+  font-family: "BwModelica-Bold";
   font-size: 25px;
+}
+@media screen and (max-width: 1440px) {
+  .subsec .container .textbox span {
+    font-size: 22px;
+  }
+}
+@media screen and (max-width: 1040px) {
+  .subsec .container .textbox span {
+    font-size: 18px;
+  }
+}
+@media screen and (max-width: 800px) {
+  .subsec .container .textbox span {
+    font-size: 16px;
+  }
+}
+@media screen and (max-width: 650px) {
+  .subsec .container .textbox span {
+    font-size: 20px;
+    line-height: 1.8;
+    text-align: left;
+  }
 }
 .subsec .container .textbox hr {
   margin-top: 1rem;
@@ -282,14 +527,60 @@ a {
   font-size: 30px;
   line-height: 1.6;
 }
+@media screen and (max-width: 1440px) {
+  .subsec .container .textbox p {
+    font-size: 27px;
+    line-height: 1.33;
+  }
+}
+@media screen and (max-width: 1040px) {
+  .subsec .container .textbox p {
+    font-size: 20px;
+  }
+}
+@media screen and (max-width: 800px) {
+  .subsec .container .textbox p {
+    font-size: 18px;
+  }
+}
+@media screen and (max-width: 650px) {
+  .subsec .container .textbox p {
+    font-size: 24px;
+    line-height: 1.33;
+    text-align: left;
+  }
+}
 .subsec .container .textbox a {
   font-family: "BwModelica-Bold";
   font-size: 20px;
   color: #00A1E0;
 }
+@media screen and (max-width: 1040px) {
+  .subsec .container .textbox a {
+    font-size: 16px;
+    line-height: 2.6;
+  }
+}
+@media screen and (max-width: 1040px) {
+  .subsec .container .textbox a {
+    font-size: 14px;
+  }
+}
+@media screen and (max-width: 650px) {
+  .subsec .container .textbox a {
+    font-size: 20px;
+  }
+}
 .subsec img {
   margin-top: 8rem;
   width: 100%;
+  display: block;
+}
+@media screen and (max-width: 600px) {
+  .subsec img {
+    height: 220px;
+    object-fit: cover;
+  }
 }
 
 .subfooter {
@@ -297,18 +588,78 @@ a {
   padding-top: 10rem;
   padding-bottom: 25rem;
 }
+@media screen and (max-width: 1280px) {
+  .subfooter {
+    padding-bottom: 15rem;
+  }
+}
+@media screen and (max-width: 800px) {
+  .subfooter {
+    padding-top: 5rem;
+  }
+}
+@media screen and (max-width: 600px) {
+  .subfooter {
+    background-color: #0C1821;
+    padding-top: 0;
+    padding-bottom: 0;
+    margin-bottom: 8rem;
+    position: relative;
+  }
+}
 .subfooter .contactcard {
   padding: 5rem 20rem 5rem 5rem;
   color: #ffff;
   background-color: #0C1821;
-  margin-right: 30rem;
+  margin-right: 28.6%;
+}
+@media screen and (max-width: 1040px) {
+  .subfooter .contactcard {
+    margin-right: 20.6%;
+  }
+}
+@media screen and (max-width: 800px) {
+  .subfooter .contactcard {
+    padding: 2rem 15rem 2rem 2rem;
+  }
+}
+@media screen and (max-width: 600px) {
+  .subfooter .contactcard {
+    margin-right: 0;
+    padding: 2rem 0 11rem 0;
+  }
 }
 .subfooter .contactcard h2 {
   font-family: "BwModelica-Bold";
   font-size: 60px;
   line-height: 1.2;
 }
+@media screen and (max-width: 1440px) {
+  .subfooter .contactcard h2 {
+    font-size: 48px;
+  }
+}
+@media screen and (max-width: 1040px) {
+  .subfooter .contactcard h2 {
+    font-size: 36px;
+  }
+}
+@media screen and (max-width: 800px) {
+  .subfooter .contactcard h2 {
+    font-size: 30px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .subfooter .contactcard h2 {
+    font-size: 24px;
+    font-stretch: normal;
+    line-height: 1.33;
+    letter-spacing: normal;
+    padding-right: 4rem;
+  }
+}
 .subfooter .contactcard .button {
+  margin-top: 8rem;
   color: #ffff;
   font-family: "BwModelica-Medium";
   font-size: 1.3rem;
@@ -316,73 +667,217 @@ a {
   box-sizing: border-box;
   padding: 1.5rem;
   display: inline-block;
-  margin-top: 8rem;
 }
 .subfooter .contactcard .button i {
   padding-left: 2rem;
+}
+@media screen and (max-width: 1440px) {
+  .subfooter .contactcard .button {
+    margin-top: 3.5rem;
+  }
+}
+@media screen and (max-width: 1040px) {
+  .subfooter .contactcard .button {
+    margin-top: 2rem;
+    font-size: 1rem;
+  }
+}
+@media screen and (max-width: 800px) {
+  .subfooter .contactcard .button {
+    margin-top: 2rem;
+    font-size: 0.75rem;
+  }
+}
+@media screen and (max-width: 600px) {
+  .subfooter .contactcard .button {
+    margin-top: 3.5rem;
+  }
 }
 .subfooter .container {
   display: flex;
   justify-content: space-around;
 }
+@media screen and (max-width: 600px) {
+  .subfooter .container {
+    display: inline-block;
+  }
+}
 .subfooter .container img {
   z-index: 0;
   position: absolute;
-  margin-left: 29rem;
-  margin-top: 15rem;
+  margin-left: 25.9%;
+  margin-top: 14.3%;
+}
+@media screen and (max-width: 1600px) {
+  .subfooter .container img {
+    margin-left: 23.9%;
+    margin-top: 14.3%;
+  }
+}
+@media screen and (max-width: 1440px) {
+  .subfooter .container img {
+    margin-left: 20%;
+    margin-top: 12%;
+    height: 400px;
+    width: auto;
+  }
+}
+@media screen and (max-width: 1040px) {
+  .subfooter .container img {
+    margin-left: 21%;
+    margin-top: 18%;
+    height: 300px;
+  }
+}
+@media screen and (max-width: 800px) {
+  .subfooter .container img {
+    margin-left: 22%;
+    margin-top: 25%;
+    height: 245px;
+  }
+}
+@media screen and (max-width: 680px) {
+  .subfooter .container img {
+    margin-left: 22%;
+    margin-top: 25%;
+    height: 200px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .subfooter .container img {
+    margin-left: 0;
+    margin-top: 0;
+    height: 196px;
+    top: 265px;
+    right: 0;
+  }
 }
 
-.footer .greybg {
-  background-color: #F3F3F5;
-  margin-top: 20rem;
-  width: 100%;
-  position: absolute;
-}
-.footer .greybg p {
-  color: #F3F3F5;
-}
-.footer .container {
+.footer {
   background-color: #0C1821;
   color: #ffff;
-  margin-top: -10rem;
-  margin-right: 0;
-  padding-bottom: 1rem;
 }
 .footer .container .interior {
-  padding: 5rem 7rem 0 10rem;
+  padding-top: 5rem;
+  padding-bottom: 2rem;
   display: flex;
   justify-content: space-between;
+  position: relative;
+}
+@media screen and (max-width: 800px) {
+  .footer .container .interior {
+    display: inline-block;
+    text-align: center;
+    padding: 60px 1rem 40px 1rem;
+  }
+}
+.footer .container .interior .column1 p:last-of-type {
+  font-size: 18px;
+}
+@media screen and (max-width: 800px) {
+  .footer .container .interior .column1 p:last-of-type {
+    font-size: 10px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.2;
+  }
 }
 .footer .container .interior .column1 {
   width: 35%;
   padding-right: 5rem;
   font-family: "BwModelica-Regular";
-  font-size: 18px;
+  font-size: 16px;
 }
-.footer .container .interior .column1 .button {
-  color: #ffff;
-  font-family: "BwModelica-Medium";
-  font-size: 1.3rem;
-  border: 1px solid #ffff;
-  box-sizing: border-box;
-  padding: 1.5rem;
-  display: inline-block;
-  margin: 4rem 0 2rem 0;
-}
-.footer .container .interior .column1 .button i {
-  padding-left: 2rem;
+@media screen and (max-width: 800px) {
+  .footer .container .interior .column1 {
+    width: auto;
+    padding-right: 5rem;
+  }
 }
 .footer .container .interior .column1 .info {
   margin-top: 1rem;
 }
+@media screen and (max-width: 800px) {
+  .footer .container .interior .column1 .info {
+    font-size: 12px;
+    font-weight: normal;
+    font-stretch: normal;
+    line-height: 2.33;
+  }
+}
 .footer .container .interior .column1 p {
   margin: 2rem 0 2rem 0;
-  line-height: 1.6;
+  line-height: 24px;
   display: flex;
+}
+@media screen and (max-width: 800px) {
+  .footer .container .interior .column1 p {
+    display: block;
+    font-size: 12px;
+    font-stretch: normal;
+    line-height: 2;
+    margin: 2rem 0 0 0;
+  }
 }
 .footer .container .interior .column1 .text {
   margin-top: 3rem;
   width: 60%;
+}
+.footer .container .interior .column1 .text p {
+  font-size: 16px;
+}
+@media screen and (max-width: 800px) {
+  .footer .container .interior .column1 .text {
+    margin-top: 0;
+    width: auto;
+  }
+  .footer .container .interior .column1 .text p {
+    font-size: 12px;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 2;
+  }
+}
+.footer .container .interior .column1 .botcolumn {
+  align-self: flex-end;
+  margin: 4rem 0 8rem 0;
+}
+.footer .container .interior .column1 .botcolumn p {
+  padding-left: 1rem;
+}
+.footer .container .interior .column1 .botcolumn a:last-of-type {
+  margin-right: 0;
+}
+.footer .container .interior .column1 .botcolumn i {
+  font-size: 36px;
+}
+.footer .container .interior .column1 .botcolumn a {
+  margin-right: 2rem;
+  margin-top: 1rem;
+}
+@media screen and (max-width: 800px) {
+  .footer .container .interior .column1 .botcolumn {
+    align-self: center;
+    margin: 0;
+  }
+  .footer .container .interior .column1 .botcolumn .subsicons {
+    margin: 2rem 0 3rem 0;
+  }
+}
+@media screen and (max-width: 800px) {
+  .footer .container .interior .column1 .copyright {
+    display: none;
+  }
+}
+@media screen and (max-width: 800px) {
+  .footer .container .interior .column1 {
+    width: auto;
+    padding-right: 0;
+  }
+  .footer .container .interior .column1 img {
+    height: 50px;
+  }
 }
 .footer .container .interior .column2 {
   font-size: 18px;
@@ -391,7 +886,13 @@ a {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  padding-bottom: 7rem;
+  padding-bottom: 11rem;
+}
+@media screen and (max-width: 800px) {
+  .footer .container .interior .column2 {
+    border-top: none;
+    padding-bottom: 0;
+  }
 }
 .footer .container .interior .column2 .topcolumn {
   align-self: flex-start;
@@ -402,6 +903,11 @@ a {
   row-gap: 105%;
   column-gap: 45%;
   margin-right: 20rem;
+}
+@media screen and (max-width: 1040px) {
+  .footer .container .interior .column2 .topcolumn {
+    margin-right: 10rem;
+  }
 }
 .footer .container .interior .column2 .topcolumn a {
   position: relative;
@@ -424,14 +930,41 @@ a {
   left: 0;
   transition: width 0.3s ease 0s, left 0.3s ease 0s;
 }
-.footer .container .interior .column2 .botcolumn {
-  align-self: flex-end;
+@media screen and (max-width: 800px) {
+  .footer .container .interior .column2 .topcolumn {
+    display: none;
+  }
 }
-.footer .container .interior .column2 .botcolumn p {
-  padding-left: 1rem;
+.footer .container .interior .column2 .button {
+  color: #ffff;
+  font-family: "BwModelica-Medium";
+  font-size: 1.3rem;
+  border: 1px solid #ffff;
+  box-sizing: border-box;
+  padding: 1.5rem;
+  display: inline-block;
 }
-.footer .container .interior .column2 .botcolumn i {
-  font-size: 2.7rem;
-  margin-left: 1rem;
-  margin-top: 1rem;
+@media screen and (max-width: 800px) {
+  .footer .container .interior .column2 .button {
+    font-size: 18px;
+    font-stretch: normal;
+    line-height: 1.22;
+  }
+}
+.footer .container .interior .column2 .button i {
+  padding-left: 2rem;
+}
+.footer .container .interior .column2 .copyright-mobile {
+  display: none;
+}
+@media screen and (max-width: 800px) {
+  .footer .container .interior .column2 .copyright-mobile {
+    margin-top: 4rem;
+    display: block;
+    font-size: 10px;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.2;
+    font-family: "BwModelica-Regular";
+  }
 }
